@@ -17,6 +17,11 @@ env:
   STAGING_WORKSPACE_TOKEN: ${{ secrets.STAGING_WORKSPACE_TOKEN }}
   PROD_WORKSPACE_TOKEN: ${{ secrets.PROD_WORKSPACE_TOKEN }}
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   staging:
     concurrency: my_mlops_project-staging-bundle-job
