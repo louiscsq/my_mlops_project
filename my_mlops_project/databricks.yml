@@ -37,9 +37,8 @@ targets:
 
   louis_prod:
     workspace:
-      host: https://e2-demo-field-eng.cloud.databricks.com
-
+      host: https://dbc-dd775ecf-2945.cloud.databricks.com
   louis_test:
     workspace:
-      host: https://e2-demo-field-eng.cloud.databricks.com
+      host: https://dbc-dd775ecf-2945.cloud.databricks.com
 
